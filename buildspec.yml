@@ -26,7 +26,7 @@ phases:
       
       - docker images
 
-      - docker tag docker-compose-nodejs-mysql_app:latest public.ecr.aws/c8k0g9j9/node:latest    
+      - docker tag src_app:latest public.ecr.aws/c8k0g9j9/node:latest    
 
   post_build:
 
